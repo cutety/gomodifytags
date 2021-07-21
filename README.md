@@ -161,7 +161,7 @@ prefixing them (`field_name=<your_value>`). The `--template` flag allows you to
 specify a custom format for the tag value to be applied.
 
 ```
-$ gomodifytags -file demo.go -struct Server -add-tags gaum -template "field_name=$field" 
+$ gomodifytags -file demo.go -struct Server -add-tags gaum -template "field_name=@field" 
 ```
 
 ```go
