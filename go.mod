@@ -1,4 +1,4 @@
-module github.com/CrimsonAishia/gomodifytags
+module github.com/cutety/gomodifytags
 
 require (
 	github.com/fatih/camelcase v1.0.0
